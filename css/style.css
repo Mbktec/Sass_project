@@ -1,14 +1,29 @@
-body {
-  background-color: red; }
-
 header {
   padding: 50px;
   color: white;
   background-color: blue;
-  margin-bottom: 200px; }
+  margin-bottom: 500px; }
+
+body {
+  background-color: red; }
 
 footer {
   padding: 50px;
   background-color: blue; }
+  footer span {
+    color: white; }
+    footer span:hover {
+      text-decoration: underline; }
+
+.alert-green, .alert-red {
+  border: 1px solid #ccc;
+  padding: 15px;
+  color: white; }
+
+.alert-green {
+  background-color: green; }
+
+.alert-red {
+  background-color: red; }
 
 /*# sourceMappingURL=style.css.map */

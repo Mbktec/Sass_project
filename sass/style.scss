@@ -1,16 +1,40 @@
 $primaryColor:blue;
+@import 'header';
+//pour importe un style sass on utilise le nom de le style sans le _ et l'extension
 body{
     background-color:red;
 }
 
-header{
-    padding: 50px;
-    color: white;
-    background-color: $primaryColor;
-    margin-bottom: 200px;
-}
 
 footer{
     padding: 50px;
     background-color: $primaryColor;
+    span {
+            color: white;
+            // le & designer l'enfant de la balise dans laquel il est appeler comme un this en js
+            &:hover{
+            text-decoration: underline;
+            }
+        }
+  
+}
+//definition d'un bloc de code qui n'est ni une class ni une balise de html
+//avec le % pour definir que ce un bloc
+%alert {
+    border: 1px solid #ccc;
+    padding: 15px;
+    color:white;
+}
+
+.alert-green {
+    //on fait le @extent pour qu'un element hérite des propriéte d'un bloc
+    @extend %alert;
+    background-color: green;
+  
+}
+
+.alert-red {
+    @extend %alert;
+    background-color: red;
+  
 }
