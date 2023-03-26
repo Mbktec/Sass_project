@@ -26,4 +26,14 @@ footer {
 .alert-red {
   background-color: red; }
 
+#logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 155px; }
+
+#slogan {
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px; }
+
 /*# sourceMappingURL=style.css.map */
