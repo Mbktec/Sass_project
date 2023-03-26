@@ -1,4 +1,14 @@
 body {
-  background-color: antiquewhite; }
+  background-color: red; }
+
+header {
+  padding: 50px;
+  color: white;
+  background-color: blue;
+  margin-bottom: 200px; }
+
+footer {
+  padding: 50px;
+  background-color: blue; }
 
 /*# sourceMappingURL=style.css.map */
